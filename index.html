@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooler Page Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="launcher-container">
+        <h1 class="title">Cooler Page Launcher</h1>
+        
+        <div class="form-group">
+            <label for="page-select">Choose a Page:</label>
+            <select id="page-select">
+                <option value="">-- Select a Page --</option>
+                <option value="https://www.google.com">Google</option>
+                <option value="https://www.github.com">GitHub</option>
+                <option value="https://www.stackoverflow.com">Stack Overflow</option>
+                <option value="https://www.reddit.com">Reddit</option>
+            </select>
+        </div>
+
+        <button id="launch-btn" onclick="launchPage()">Launch</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
