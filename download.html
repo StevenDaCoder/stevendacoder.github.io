@@ -1,1 +1,39 @@
-//replace with launchers code//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Client Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+    p {
+      font-family: Inter, sans-serif; 
+      font-size: 16px; 
+    }
+  </style>
+<body>
+
+    <div class="launcher-container">
+        <h1 class="title">Obsidian Client Downloader</h1>
+        
+        <div class="form-group">
+            <label for="page-select">Choose Version</label>
+            <select id="page-select">
+                <option value="">-- Select a verion of Obsidian Client --</option>
+                <option value="error1.html">1.12.2 WASM</option>
+                <option value="error1.html">1.12.2</option>
+                <option value="error1.html">1.8.8 WASM</option>
+                <option value="error1.html">1.8.8</option>
+                <option value="error1.html">1.12.2 WASM Hacked</option>
+                <option value="error1.html">1.8.8 WASM Hacked</option>
+                
+            </select>
+        </div>
+
+        <button id="launch-btn" onclick="launchPage()">Download</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
