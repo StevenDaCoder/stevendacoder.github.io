@@ -4,6 +4,6 @@ function launchPage() {
     if (selectedPage) {
         window.open(selectedPage, '_blank');
     } else {
-        alert('Please select a page to launch!');
+        alert('Please select a version to launch!');
     }
 }
